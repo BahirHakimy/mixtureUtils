@@ -1,0 +1,23 @@
+{
+  "name": "mixtureutils",
+  "version": "1.0.0",
+  "description": "My first npm package",
+  "main": "index.js",
+  "scripts": {
+    "test": "mxtest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BahirHakimy/mixtureUtils.git"
+  },
+  "keywords": [
+    "javascript",
+    "utils"
+  ],
+  "author": "BahirHakimy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BahirHakimy/mixtureUtils/issues"
+  },
+  "homepage": "https://github.com/BahirHakimy/mixtureUtils#readme"
+}
