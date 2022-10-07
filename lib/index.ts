@@ -1,5 +1,5 @@
 //** Erases the last char of a word (Hello ==> Hell)*/
-function eraseLast(word) {
+function eraseLast(word: string): string {
   return word
     .split("")
     .filter((ch, i) => i !== word.split("").length - 1)
@@ -7,7 +7,7 @@ function eraseLast(word) {
 }
 
 //** Capitalizes the first word of a sentence (hello world ==> Hello world) */
-function capitalize(sentence) {
+function capitalize(sentence: string): string {
   return sentence
     .split(" ")
     .map((w, i) =>
@@ -22,7 +22,7 @@ function capitalize(sentence) {
 }
 
 //** Converts a given date into pretty string representation (Today at 07:34 PM) */
-function prettyDateFormat(dateObject) {
+function prettyDateFormat(dateObject: Date): string {
   const weekDays = ["Sat", "Sun", "Mon", "Tue", "Wed", "Thu", "Fri"];
   const months = [
     "Jan",
